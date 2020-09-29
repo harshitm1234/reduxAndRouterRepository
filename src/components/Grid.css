@@ -1,0 +1,18 @@
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	text-align: left;
+	padding: 8px;
+	width: fit-content;
+	max-height: 20px;
+	text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+	background-color: #f8f1af63;
+}
